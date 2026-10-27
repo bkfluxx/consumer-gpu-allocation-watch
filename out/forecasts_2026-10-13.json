@@ -1,0 +1,3172 @@
+{
+  "asof": "2026-10-13",
+  "model_version": "cgw-0v1",
+  "discontinuation": [
+    {
+      "sku_model": "RTX 4080",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9622,
+      "risk_band": [
+        0.872,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.25,
+      "eol_window_quarters": [
+        0.15,
+        0.38
+      ],
+      "eol_window_dates": [
+        "2026-10-26",
+        "2026-11-16"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.085,
+          "value": 0.986
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.778,
+          "value": 0.865
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 1427,
+        "launch_date": "November 16, 2022",
+        "street_premium_pct": -0.166,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4080/"
+      ]
+    },
+    {
+      "sku_model": "RTX 5090",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9401,
+      "risk_band": [
+        0.85,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.3,
+      "eol_window_quarters": [
+        0.18,
+        0.45
+      ],
+      "eol_window_dates": [
+        "2026-10-29",
+        "2026-11-22"
+      ],
+      "top_drivers": [
+        {
+          "feature": "signals",
+          "label": "supply/EOL chatter",
+          "contribution": 1.0,
+          "value": 1.0
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 588,
+        "launch_date": "2025-03-04",
+        "street_premium_pct": 1.1094,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 2
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5090/"
+      ]
+    },
+    {
+      "sku_model": "RTX 4060 Ti",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9376,
+      "risk_band": [
+        0.848,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.31,
+      "eol_window_quarters": [
+        0.19,
+        0.47
+      ],
+      "eol_window_dates": [
+        "2026-10-30",
+        "2026-11-24"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.059,
+          "value": 0.963
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 1238,
+        "launch_date": "May 24, 2023",
+        "street_premium_pct": 0.3032,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060ti/"
+      ]
+    },
+    {
+      "sku_model": "RTX 4070 Ti",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9374,
+      "risk_band": [
+        0.847,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.31,
+      "eol_window_quarters": [
+        0.19,
+        0.47
+      ],
+      "eol_window_dates": [
+        "2026-10-30",
+        "2026-11-24"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.08,
+          "value": 0.982
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.877,
+          "value": 0.974
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 1377,
+        "launch_date": "January 5, 2023",
+        "street_premium_pct": 0.0701,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070ti/"
+      ]
+    },
+    {
+      "sku_model": "RTX 4060",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9371,
+      "risk_band": [
+        0.847,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.31,
+      "eol_window_quarters": [
+        0.19,
+        0.47
+      ],
+      "eol_window_dates": [
+        "2026-10-30",
+        "2026-11-24"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.05,
+          "value": 0.955
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 1202,
+        "launch_date": "June 29, 2023",
+        "street_premium_pct": 0.1571,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060/"
+      ]
+    },
+    {
+      "sku_model": "RTX 4090",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9313,
+      "risk_band": [
+        0.841,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.34,
+      "eol_window_quarters": [
+        0.21,
+        0.52
+      ],
+      "eol_window_dates": [
+        "2026-11-01",
+        "2026-11-29"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.98,
+          "value": 0.891
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.876,
+          "value": 0.973
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 1020,
+        "launch_date": "December 28, 2023",
+        "street_premium_pct": 0.3446,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4090/"
+      ]
+    },
+    {
+      "sku_model": "RX 7900 XT",
+      "vendor": "amd",
+      "series": "RX 7000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9243,
+      "risk_band": [
+        0.834,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.38,
+      "eol_window_quarters": [
+        0.23,
+        0.57
+      ],
+      "eol_window_dates": [
+        "2026-11-02",
+        "2026-12-03"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.082,
+          "value": 0.984
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "discount",
+          "label": "street clearing below MSRP",
+          "contribution": 0.42,
+          "value": 0.29
+        }
+      ],
+      "evidence": {
+        "age_days": 1400,
+        "launch_date": "Dec 13, 2022",
+        "street_premium_pct": -0.138,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+        "https://www.nowinstock.net/computers/videocards/amd/rx7900xt/"
+      ]
+    },
+    {
+      "sku_model": "RTX 4070",
+      "vendor": "nvidia",
+      "series": "RTX 40",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.9186,
+      "risk_band": [
+        0.829,
+        0.99
+      ],
+      "expected_quarters_to_eol": 0.41,
+      "eol_window_quarters": [
+        0.24,
+        0.61
+      ],
+      "eol_window_dates": [
+        "2026-11-03",
+        "2026-12-07"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.773,
+          "value": 0.703
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        }
+      ],
+      "evidence": {
+        "age_days": 784,
+        "launch_date": "August 20, 2024",
+        "street_premium_pct": -0.0317,
+        "in_stock_share": 0.0,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070/"
+      ]
+    },
+    {
+      "sku_model": "RX 7800 XT",
+      "vendor": "amd",
+      "series": "RX 7000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.884,
+      "risk_band": [
+        0.794,
+        0.974
+      ],
+      "expected_quarters_to_eol": 0.58,
+      "eol_window_quarters": [
+        0.35,
+        0.87
+      ],
+      "eol_window_dates": [
+        "2026-11-13",
+        "2026-12-31"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.031,
+          "value": 0.937
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "generation",
+          "label": "generation position",
+          "contribution": 0.4,
+          "value": 0.5
+        }
+      ],
+      "evidence": {
+        "age_days": 1133,
+        "launch_date": "Sep 6, 2023",
+        "street_premium_pct": null,
+        "in_stock_share": null,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "sku_model": "RTX 5070",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8738,
+      "risk_band": [
+        0.784,
+        0.964
+      ],
+      "expected_quarters_to_eol": 0.63,
+      "eol_window_quarters": [
+        0.38,
+        0.95
+      ],
+      "eol_window_dates": [
+        "2026-11-16",
+        "2027-01-07"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.531,
+          "value": 0.625
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.504,
+          "value": 0.458
+        }
+      ],
+      "evidence": {
+        "age_days": 588,
+        "launch_date": "March 4, 2025",
+        "street_premium_pct": 0.6393,
+        "in_stock_share": 0.375,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070/"
+      ]
+    },
+    {
+      "sku_model": "RTX 5080",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8616,
+      "risk_band": [
+        0.772,
+        0.952
+      ],
+      "expected_quarters_to_eol": 0.69,
+      "eol_window_quarters": [
+        0.42,
+        1.04
+      ],
+      "eol_window_dates": [
+        "2026-11-20",
+        "2027-01-15"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.551,
+          "value": 0.501
+        },
+        {
+          "feature": "signals",
+          "label": "supply/EOL chatter",
+          "contribution": 0.5,
+          "value": 0.5
+        }
+      ],
+      "evidence": {
+        "age_days": 621,
+        "launch_date": "January 30, 2025",
+        "street_premium_pct": 0.8331,
+        "in_stock_share": 0.556,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5080/"
+      ]
+    },
+    {
+      "sku_model": "RX 7600",
+      "vendor": "amd",
+      "series": "RX 7000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8552,
+      "risk_band": [
+        0.765,
+        0.945
+      ],
+      "expected_quarters_to_eol": 0.72,
+      "eol_window_quarters": [
+        0.43,
+        1.09
+      ],
+      "eol_window_dates": [
+        "2026-11-21",
+        "2027-01-20"
+      ],
+      "top_drivers": [
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 1.059,
+          "value": 0.963
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.567,
+          "value": 0.667
+        },
+        {
+          "feature": "generation",
+          "label": "generation position",
+          "contribution": 0.4,
+          "value": 0.5
+        }
+      ],
+      "evidence": {
+        "age_days": 1237,
+        "launch_date": "May 25, 2023",
+        "street_premium_pct": 0.2639,
+        "in_stock_share": 0.333,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+        "https://www.nowinstock.net/computers/videocards/amd/rx7600/"
+      ]
+    },
+    {
+      "sku_model": "RTX 5060 Ti",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8433,
+      "risk_band": [
+        0.753,
+        0.933
+      ],
+      "expected_quarters_to_eol": 0.78,
+      "eol_window_quarters": [
+        0.47,
+        1.18
+      ],
+      "eol_window_dates": [
+        "2026-11-24",
+        "2027-01-28"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        },
+        {
+          "feature": "signals",
+          "label": "supply/EOL chatter",
+          "contribution": 0.5,
+          "value": 0.5
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.443,
+          "value": 0.403
+        }
+      ],
+      "evidence": {
+        "age_days": 545,
+        "launch_date": "April 16, 2025",
+        "street_premium_pct": 0.6092,
+        "in_stock_share": 0.6,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060ti/"
+      ]
+    },
+    {
+      "sku_model": "RTX 5070 Ti",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8238,
+      "risk_band": [
+        0.734,
+        0.914
+      ],
+      "expected_quarters_to_eol": 0.88,
+      "eol_window_quarters": [
+        0.53,
+        1.32
+      ],
+      "eol_window_dates": [
+        "2026-11-30",
+        "2027-02-10"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.521,
+          "value": 0.474
+        },
+        {
+          "feature": "signals",
+          "label": "supply/EOL chatter",
+          "contribution": 0.5,
+          "value": 0.5
+        }
+      ],
+      "evidence": {
+        "age_days": 600,
+        "launch_date": "February 20, 2025",
+        "street_premium_pct": 0.6689,
+        "in_stock_share": 0.857,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070ti/"
+      ]
+    },
+    {
+      "sku_model": "RTX 5060",
+      "vendor": "nvidia",
+      "series": "RTX 50",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.8127,
+      "risk_band": [
+        0.723,
+        0.903
+      ],
+      "expected_quarters_to_eol": 0.94,
+      "eol_window_quarters": [
+        0.56,
+        1.4
+      ],
+      "eol_window_dates": [
+        "2026-12-02",
+        "2027-02-17"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "allocation",
+          "label": "vendor die allocation shift",
+          "contribution": 0.65,
+          "value": 0.52
+        },
+        {
+          "feature": "signals",
+          "label": "supply/EOL chatter",
+          "contribution": 0.5,
+          "value": 0.5
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.398,
+          "value": 0.362
+        }
+      ],
+      "evidence": {
+        "age_days": 512,
+        "launch_date": "May 19, 2025",
+        "street_premium_pct": 0.6555,
+        "in_stock_share": 0.8,
+        "gaming_qoq_pct": -13.0,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060/"
+      ]
+    },
+    {
+      "sku_model": "RX 9070",
+      "vendor": "amd",
+      "series": "RX 9000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.6954,
+      "risk_band": [
+        0.605,
+        0.785
+      ],
+      "expected_quarters_to_eol": 1.52,
+      "eol_window_quarters": [
+        0.91,
+        2.28
+      ],
+      "eol_window_dates": [
+        "2027-01-03",
+        "2027-05-08"
+      ],
+      "top_drivers": [
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.85,
+          "value": 1.0
+        },
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.75,
+          "value": 0.833
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.375,
+          "value": 0.341
+        }
+      ],
+      "evidence": {
+        "age_days": 495,
+        "launch_date": "2025-06-05",
+        "street_premium_pct": null,
+        "in_stock_share": null,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "sku_model": "RX 9070 XT",
+      "vendor": "amd",
+      "series": "RX 9000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.6436,
+      "risk_band": [
+        0.554,
+        0.734
+      ],
+      "expected_quarters_to_eol": 1.78,
+      "eol_window_quarters": [
+        1.07,
+        2.67
+      ],
+      "eol_window_dates": [
+        "2027-01-18",
+        "2027-06-12"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.501,
+          "value": 0.455
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.34,
+          "value": 0.4
+        }
+      ],
+      "evidence": {
+        "age_days": 586,
+        "launch_date": "Mar 6, 2025",
+        "street_premium_pct": 0.4457,
+        "in_stock_share": 0.6,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+        "https://www.nowinstock.net/computers/videocards/amd/rx9070xt/"
+      ]
+    },
+    {
+      "sku_model": "RX 9060 XT",
+      "vendor": "amd",
+      "series": "RX 9000",
+      "asof": "2026-10-13",
+      "model_version": "cgw-0v1",
+      "discontinuation_risk": 0.6342,
+      "risk_band": [
+        0.544,
+        0.724
+      ],
+      "expected_quarters_to_eol": 1.83,
+      "eol_window_quarters": [
+        1.1,
+        2.74
+      ],
+      "eol_window_dates": [
+        "2027-01-21",
+        "2027-06-19"
+      ],
+      "top_drivers": [
+        {
+          "feature": "memory_cost",
+          "label": "memory cost inflation",
+          "contribution": 0.9,
+          "value": 1.0
+        },
+        {
+          "feature": "scarcity",
+          "label": "retail stock breadth",
+          "contribution": 0.425,
+          "value": 0.5
+        },
+        {
+          "feature": "age",
+          "label": "time in market",
+          "contribution": 0.375,
+          "value": 0.341
+        }
+      ],
+      "evidence": {
+        "age_days": 495,
+        "launch_date": "Jun 5, 2025",
+        "street_premium_pct": 1.2391,
+        "in_stock_share": 0.5,
+        "gaming_qoq_pct": null,
+        "dc_qoq_pct": null,
+        "guidance_mid_pct": 12.5,
+        "n_eol_signals": 0
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+        "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+        "https://www.nowinstock.net/computers/videocards/amd/rx9060xt/"
+      ]
+    }
+  ],
+  "price_triggers": [
+    {
+      "sku_model": "RTX 4080",
+      "msrp_usd": 1199.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 1258.95,
+      "current_median_usd": 999.99,
+      "current_premium_pct": -0.166,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.259,
+      "projected_median_usd_90d": 1134.31,
+      "projected_change_pct_90d": 0.1343,
+      "cross_prob_90d": 0.078,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.05,
+        "memory_share_of_msrp": 0.166,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 686
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4080",
+      "msrp_usd": 1199.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 1378.85,
+      "current_median_usd": 999.99,
+      "current_premium_pct": -0.166,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.3789,
+      "projected_median_usd_90d": 1134.31,
+      "projected_change_pct_90d": 0.1343,
+      "cross_prob_90d": 0.012,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.05,
+        "memory_share_of_msrp": 0.166,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 686
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4080",
+      "msrp_usd": 1199.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 1558.7,
+      "current_median_usd": 999.99,
+      "current_premium_pct": -0.166,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.5587,
+      "projected_median_usd_90d": 1134.31,
+      "projected_change_pct_90d": 0.1343,
+      "cross_prob_90d": 0.001,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.05,
+        "memory_share_of_msrp": 0.166,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 686
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4080",
+      "msrp_usd": 1199.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 1798.5,
+      "current_median_usd": 999.99,
+      "current_premium_pct": -0.166,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.7985,
+      "projected_median_usd_90d": 1134.31,
+      "projected_change_pct_90d": 0.1343,
+      "cross_prob_90d": 0.0,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.05,
+        "memory_share_of_msrp": 0.166,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 686
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5090",
+      "msrp_usd": 2299.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 2413.95,
+      "current_median_usd": 4849.49,
+      "current_premium_pct": 1.1094,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.5022,
+      "projected_median_usd_90d": 5531.79,
+      "projected_change_pct_90d": 0.1407,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.89,
+        "memory_share_of_msrp": 0.234,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.48,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 14
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5090",
+      "msrp_usd": 2299.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 2643.85,
+      "current_median_usd": 4849.49,
+      "current_premium_pct": 1.1094,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.4548,
+      "projected_median_usd_90d": 5531.79,
+      "projected_change_pct_90d": 0.1407,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.89,
+        "memory_share_of_msrp": 0.234,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.48,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 14
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5090",
+      "msrp_usd": 2299.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 2988.7,
+      "current_median_usd": 4849.49,
+      "current_premium_pct": 1.1094,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3837,
+      "projected_median_usd_90d": 5531.79,
+      "projected_change_pct_90d": 0.1407,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.89,
+        "memory_share_of_msrp": 0.234,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.48,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 14
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5090",
+      "msrp_usd": 2299.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 3448.5,
+      "current_median_usd": 4849.49,
+      "current_premium_pct": 1.1094,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2889,
+      "projected_median_usd_90d": 5531.79,
+      "projected_change_pct_90d": 0.1407,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.89,
+        "memory_share_of_msrp": 0.234,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.48,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 14
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060 Ti",
+      "msrp_usd": 399.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 418.95,
+      "current_median_usd": 519.99,
+      "current_premium_pct": 0.3032,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1943,
+      "projected_median_usd_90d": 593.81,
+      "projected_change_pct_90d": 0.142,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.09,
+        "memory_share_of_msrp": 0.25,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 521
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060 Ti",
+      "msrp_usd": 399.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 458.85,
+      "current_median_usd": 519.99,
+      "current_premium_pct": 0.3032,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1176,
+      "projected_median_usd_90d": 593.81,
+      "projected_change_pct_90d": 0.142,
+      "cross_prob_90d": 0.999,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.09,
+        "memory_share_of_msrp": 0.25,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 521
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060 Ti",
+      "msrp_usd": 399.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 518.7,
+      "current_median_usd": 519.99,
+      "current_premium_pct": 0.3032,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0025,
+      "projected_median_usd_90d": 593.81,
+      "projected_change_pct_90d": 0.142,
+      "cross_prob_90d": 0.974,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.09,
+        "memory_share_of_msrp": 0.25,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 521
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060 Ti",
+      "msrp_usd": 399.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 598.5,
+      "current_median_usd": 519.99,
+      "current_premium_pct": 0.3032,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.151,
+      "projected_median_usd_90d": 593.81,
+      "projected_change_pct_90d": 0.142,
+      "cross_prob_90d": 0.451,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.09,
+        "memory_share_of_msrp": 0.25,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 521
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070 Ti",
+      "msrp_usd": 799.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 838.95,
+      "current_median_usd": 854.99,
+      "current_premium_pct": 0.0701,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0188,
+      "projected_median_usd_90d": 972.74,
+      "projected_change_pct_90d": 0.1377,
+      "cross_prob_90d": 0.982,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 2
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070 Ti",
+      "msrp_usd": 799.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 918.85,
+      "current_median_usd": 854.99,
+      "current_premium_pct": 0.0701,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.0747,
+      "projected_median_usd_90d": 972.74,
+      "projected_change_pct_90d": 0.1377,
+      "cross_prob_90d": 0.812,
+      "eta_days": 49,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 2
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070 Ti",
+      "msrp_usd": 799.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 1038.7,
+      "current_median_usd": 854.99,
+      "current_premium_pct": 0.0701,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.2149,
+      "projected_median_usd_90d": 972.74,
+      "projected_change_pct_90d": 0.1377,
+      "cross_prob_90d": 0.17,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 2
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070 Ti",
+      "msrp_usd": 799.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 1198.5,
+      "current_median_usd": 854.99,
+      "current_premium_pct": 0.0701,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.4018,
+      "projected_median_usd_90d": 972.74,
+      "projected_change_pct_90d": 0.1377,
+      "cross_prob_90d": 0.009,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 2
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 313.95,
+      "current_median_usd": 345.98,
+      "current_premium_pct": 0.1571,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0926,
+      "projected_median_usd_90d": 397.07,
+      "projected_change_pct_90d": 0.1477,
+      "cross_prob_90d": 0.999,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 126
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 343.85,
+      "current_median_usd": 345.98,
+      "current_premium_pct": 0.1571,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0062,
+      "projected_median_usd_90d": 397.07,
+      "projected_change_pct_90d": 0.1477,
+      "cross_prob_90d": 0.98,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 126
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 388.7,
+      "current_median_usd": 345.98,
+      "current_premium_pct": 0.1571,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.1235,
+      "projected_median_usd_90d": 397.07,
+      "projected_change_pct_90d": 0.1477,
+      "cross_prob_90d": 0.631,
+      "eta_days": 75,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 126
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 448.5,
+      "current_median_usd": 345.98,
+      "current_premium_pct": 0.1571,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.2963,
+      "projected_median_usd_90d": 397.07,
+      "projected_change_pct_90d": 0.1477,
+      "cross_prob_90d": 0.054,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.5,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 126
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4090",
+      "msrp_usd": 1599.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 1678.95,
+      "current_median_usd": 2149.99,
+      "current_premium_pct": 0.3446,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2191,
+      "projected_median_usd_90d": 2447.13,
+      "projected_change_pct_90d": 0.1382,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.55,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 710
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4090",
+      "msrp_usd": 1599.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 1838.85,
+      "current_median_usd": 2149.99,
+      "current_premium_pct": 0.3446,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1447,
+      "projected_median_usd_90d": 2447.13,
+      "projected_change_pct_90d": 0.1382,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.55,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 710
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4090",
+      "msrp_usd": 1599.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 2078.7,
+      "current_median_usd": 2149.99,
+      "current_premium_pct": 0.3446,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0332,
+      "projected_median_usd_90d": 2447.13,
+      "projected_change_pct_90d": 0.1382,
+      "cross_prob_90d": 0.988,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.55,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 710
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4090",
+      "msrp_usd": 1599.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 2398.5,
+      "current_median_usd": 2149.99,
+      "current_premium_pct": 0.3446,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.1156,
+      "projected_median_usd_90d": 2447.13,
+      "projected_change_pct_90d": 0.1382,
+      "cross_prob_90d": 0.624,
+      "eta_days": 75,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 2.31,
+        "memory_share_of_msrp": 0.187,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.55,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 710
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4090/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7900 XT",
+      "msrp_usd": 899.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 943.95,
+      "current_median_usd": 774.98,
+      "current_premium_pct": -0.138,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.218,
+      "projected_median_usd_90d": 887.27,
+      "projected_change_pct_90d": 0.1449,
+      "cross_prob_90d": 0.182,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.42,
+        "memory_share_of_msrp": 0.277,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.61,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 714
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7900xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7900 XT",
+      "msrp_usd": 899.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 1033.85,
+      "current_median_usd": 774.98,
+      "current_premium_pct": -0.138,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.334,
+      "projected_median_usd_90d": 887.27,
+      "projected_change_pct_90d": 0.1449,
+      "cross_prob_90d": 0.028,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.42,
+        "memory_share_of_msrp": 0.277,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.61,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 714
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7900xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7900 XT",
+      "msrp_usd": 899.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 1168.7,
+      "current_median_usd": 774.98,
+      "current_premium_pct": -0.138,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.508,
+      "projected_median_usd_90d": 887.27,
+      "projected_change_pct_90d": 0.1449,
+      "cross_prob_90d": 0.002,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.42,
+        "memory_share_of_msrp": 0.277,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.61,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 714
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7900xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7900 XT",
+      "msrp_usd": 899.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 1348.5,
+      "current_median_usd": 774.98,
+      "current_premium_pct": -0.138,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.74,
+      "projected_median_usd_90d": 887.27,
+      "projected_change_pct_90d": 0.1449,
+      "cross_prob_90d": 0.0,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.42,
+        "memory_share_of_msrp": 0.277,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.61,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 2,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 714
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7900xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 628.95,
+      "current_median_usd": 579.99,
+      "current_premium_pct": -0.0317,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.0844,
+      "projected_median_usd_90d": 663.2,
+      "projected_change_pct_90d": 0.1435,
+      "cross_prob_90d": 0.796,
+      "eta_days": 53,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.08,
+        "memory_share_of_msrp": 0.249,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.65,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 406
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 688.85,
+      "current_median_usd": 579.99,
+      "current_premium_pct": -0.0317,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.1877,
+      "projected_median_usd_90d": 663.2,
+      "projected_change_pct_90d": 0.1435,
+      "cross_prob_90d": 0.283,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.08,
+        "memory_share_of_msrp": 0.249,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.65,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 406
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 778.7,
+      "current_median_usd": 579.99,
+      "current_premium_pct": -0.0317,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.3426,
+      "projected_median_usd_90d": 663.2,
+      "projected_change_pct_90d": 0.1435,
+      "cross_prob_90d": 0.024,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.08,
+        "memory_share_of_msrp": 0.249,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.65,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 406
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 4070",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 898.5,
+      "current_median_usd": 579.99,
+      "current_premium_pct": -0.0317,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.5492,
+      "projected_median_usd_90d": 663.2,
+      "projected_change_pct_90d": 0.1435,
+      "cross_prob_90d": 0.001,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.08,
+        "memory_share_of_msrp": 0.249,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 12.65,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "stale_or_out_of_stock_listings_only",
+        "basis_age_days": 406
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx4070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7800 XT",
+      "msrp_usd": 499.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 523.95,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7800 XT",
+      "msrp_usd": 499.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 573.85,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7800 XT",
+      "msrp_usd": 499.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 648.7,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7800 XT",
+      "msrp_usd": 499.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 748.5,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070",
+      "msrp_usd": 549.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 576.45,
+      "current_median_usd": 899.99,
+      "current_premium_pct": 0.6393,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3595,
+      "projected_median_usd_90d": 995.65,
+      "projected_change_pct_90d": 0.1063,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.54,
+        "memory_share_of_msrp": 0.367,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.13,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 7,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 21
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070",
+      "msrp_usd": 549.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 631.35,
+      "current_median_usd": 899.99,
+      "current_premium_pct": 0.6393,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2985,
+      "projected_median_usd_90d": 995.65,
+      "projected_change_pct_90d": 0.1063,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.54,
+        "memory_share_of_msrp": 0.367,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.13,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 7,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 21
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070",
+      "msrp_usd": 549.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 713.7,
+      "current_median_usd": 899.99,
+      "current_premium_pct": 0.6393,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.207,
+      "projected_median_usd_90d": 995.65,
+      "projected_change_pct_90d": 0.1063,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.54,
+        "memory_share_of_msrp": 0.367,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.13,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 7,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 21
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070",
+      "msrp_usd": 549.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 823.5,
+      "current_median_usd": 899.99,
+      "current_premium_pct": 0.6393,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.085,
+      "projected_median_usd_90d": 995.65,
+      "projected_change_pct_90d": 0.1063,
+      "cross_prob_90d": 0.995,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.54,
+        "memory_share_of_msrp": 0.367,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.13,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 7,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 21
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5080",
+      "msrp_usd": 999.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 1048.95,
+      "current_median_usd": 1831.31,
+      "current_premium_pct": 0.8331,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.4272,
+      "projected_median_usd_90d": 1971.41,
+      "projected_change_pct_90d": 0.0765,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.33,
+        "memory_share_of_msrp": 0.269,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.82,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5080",
+      "msrp_usd": 999.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 1148.85,
+      "current_median_usd": 1831.31,
+      "current_premium_pct": 0.8331,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3727,
+      "projected_median_usd_90d": 1971.41,
+      "projected_change_pct_90d": 0.0765,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.33,
+        "memory_share_of_msrp": 0.269,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.82,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5080",
+      "msrp_usd": 999.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 1298.7,
+      "current_median_usd": 1831.31,
+      "current_premium_pct": 0.8331,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2908,
+      "projected_median_usd_90d": 1971.41,
+      "projected_change_pct_90d": 0.0765,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.33,
+        "memory_share_of_msrp": 0.269,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.82,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5080",
+      "msrp_usd": 999.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 1498.5,
+      "current_median_usd": 1831.31,
+      "current_premium_pct": 0.8331,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1817,
+      "projected_median_usd_90d": 1971.41,
+      "projected_change_pct_90d": 0.0765,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 3.33,
+        "memory_share_of_msrp": 0.269,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.82,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 8,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5080/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7600",
+      "msrp_usd": 269.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 282.45,
+      "current_median_usd": 339.99,
+      "current_premium_pct": 0.2639,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1692,
+      "projected_median_usd_90d": 378.39,
+      "projected_change_pct_90d": 0.1129,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.58,
+        "memory_share_of_msrp": 0.37,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.78,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7600/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7600",
+      "msrp_usd": 269.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 309.35,
+      "current_median_usd": 339.99,
+      "current_premium_pct": 0.2639,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0901,
+      "projected_median_usd_90d": 378.39,
+      "projected_change_pct_90d": 0.1129,
+      "cross_prob_90d": 0.996,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.58,
+        "memory_share_of_msrp": 0.37,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.78,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7600/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7600",
+      "msrp_usd": 269.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 349.7,
+      "current_median_usd": 339.99,
+      "current_premium_pct": 0.2639,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.0286,
+      "projected_median_usd_90d": 378.39,
+      "projected_change_pct_90d": 0.1129,
+      "cross_prob_90d": 0.886,
+      "eta_days": 23,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.58,
+        "memory_share_of_msrp": 0.37,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.78,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7600/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 7600",
+      "msrp_usd": 269.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 403.5,
+      "current_median_usd": 339.99,
+      "current_premium_pct": 0.2639,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.1868,
+      "projected_median_usd_90d": 378.39,
+      "projected_change_pct_90d": 0.1129,
+      "cross_prob_90d": 0.174,
+      "eta_days": null,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.58,
+        "memory_share_of_msrp": 0.37,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 8.78,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 1,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx7600/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060 Ti",
+      "msrp_usd": 379.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 397.95,
+      "current_median_usd": 609.9,
+      "current_premium_pct": 0.6092,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3475,
+      "projected_median_usd_90d": 667.12,
+      "projected_change_pct_90d": 0.0938,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 7.42,
+        "memory_share_of_msrp": 0.6,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060 Ti",
+      "msrp_usd": 379.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 435.85,
+      "current_median_usd": 609.9,
+      "current_premium_pct": 0.6092,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2854,
+      "projected_median_usd_90d": 667.12,
+      "projected_change_pct_90d": 0.0938,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 7.42,
+        "memory_share_of_msrp": 0.6,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060 Ti",
+      "msrp_usd": 379.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 492.7,
+      "current_median_usd": 609.9,
+      "current_premium_pct": 0.6092,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1922,
+      "projected_median_usd_90d": 667.12,
+      "projected_change_pct_90d": 0.0938,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 7.42,
+        "memory_share_of_msrp": 0.6,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060 Ti",
+      "msrp_usd": 379.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 568.5,
+      "current_median_usd": 609.9,
+      "current_premium_pct": 0.6092,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0679,
+      "projected_median_usd_90d": 667.12,
+      "projected_change_pct_90d": 0.0938,
+      "cross_prob_90d": 0.987,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 7.42,
+        "memory_share_of_msrp": 0.6,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.3,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070 Ti",
+      "msrp_usd": 749.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 786.45,
+      "current_median_usd": 1249.99,
+      "current_premium_pct": 0.6689,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3708,
+      "projected_median_usd_90d": 1304.47,
+      "projected_change_pct_90d": 0.0436,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.44,
+        "memory_share_of_msrp": 0.359,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 1.92,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 6,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070 Ti",
+      "msrp_usd": 749.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 861.35,
+      "current_median_usd": 1249.99,
+      "current_premium_pct": 0.6689,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3109,
+      "projected_median_usd_90d": 1304.47,
+      "projected_change_pct_90d": 0.0436,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.44,
+        "memory_share_of_msrp": 0.359,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 1.92,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 6,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070 Ti",
+      "msrp_usd": 749.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 973.7,
+      "current_median_usd": 1249.99,
+      "current_premium_pct": 0.6689,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.221,
+      "projected_median_usd_90d": 1304.47,
+      "projected_change_pct_90d": 0.0436,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.44,
+        "memory_share_of_msrp": 0.359,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 1.92,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 6,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5070 Ti",
+      "msrp_usd": 749.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 1123.5,
+      "current_median_usd": 1249.99,
+      "current_premium_pct": 0.6689,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1012,
+      "projected_median_usd_90d": 1304.47,
+      "projected_change_pct_90d": 0.0436,
+      "cross_prob_90d": 0.982,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.44,
+        "memory_share_of_msrp": 0.359,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 1.92,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 6,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5070ti/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 313.95,
+      "current_median_usd": 494.99,
+      "current_premium_pct": 0.6555,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3657,
+      "projected_median_usd_90d": 523.49,
+      "projected_change_pct_90d": 0.0576,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 5.56,
+        "memory_share_of_msrp": 0.45,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 2.7,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 343.85,
+      "current_median_usd": 494.99,
+      "current_premium_pct": 0.6555,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3053,
+      "projected_median_usd_90d": 523.49,
+      "projected_change_pct_90d": 0.0576,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 5.56,
+        "memory_share_of_msrp": 0.45,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 2.7,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 388.7,
+      "current_median_usd": 494.99,
+      "current_premium_pct": 0.6555,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2147,
+      "projected_median_usd_90d": 523.49,
+      "projected_change_pct_90d": 0.0576,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 5.56,
+        "memory_share_of_msrp": 0.45,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 2.7,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RTX 5060",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 448.5,
+      "current_median_usd": 494.99,
+      "current_premium_pct": 0.6555,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.0939,
+      "projected_median_usd_90d": 523.49,
+      "projected_change_pct_90d": 0.0576,
+      "cross_prob_90d": 0.985,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 5.56,
+        "memory_share_of_msrp": 0.45,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 2.7,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 4,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/nvidia/rtx5060/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070",
+      "msrp_usd": null,
+      "trigger_level": 1.05,
+      "trigger_usd": null,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070",
+      "msrp_usd": null,
+      "trigger_level": 1.15,
+      "trigger_usd": null,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070",
+      "msrp_usd": null,
+      "trigger_level": 1.3,
+      "trigger_usd": null,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070",
+      "msrp_usd": null,
+      "trigger_level": 1.5,
+      "trigger_usd": null,
+      "status": "no_street_price",
+      "note": "no current retail price observed for this SKU",
+      "current_median_usd": null,
+      "already_above": false,
+      "cross_prob_90d": null,
+      "eta_days": null,
+      "sources": [],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070 XT",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 628.95,
+      "current_median_usd": 865.99,
+      "current_premium_pct": 0.4457,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2737,
+      "projected_median_usd_90d": 937.02,
+      "projected_change_pct_90d": 0.082,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.11,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.94,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 40
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9070xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070 XT",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 688.85,
+      "current_median_usd": 865.99,
+      "current_premium_pct": 0.4457,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.2046,
+      "projected_median_usd_90d": 937.02,
+      "projected_change_pct_90d": 0.082,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.11,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.94,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 40
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9070xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070 XT",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 778.7,
+      "current_median_usd": 865.99,
+      "current_premium_pct": 0.4457,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.1008,
+      "projected_median_usd_90d": 937.02,
+      "projected_change_pct_90d": 0.082,
+      "cross_prob_90d": 0.994,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.11,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.94,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 40
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9070xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9070 XT",
+      "msrp_usd": 599.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 898.5,
+      "current_median_usd": 865.99,
+      "current_premium_pct": 0.4457,
+      "already_above": false,
+      "gap_to_trigger_pct": 0.0375,
+      "projected_median_usd_90d": 937.02,
+      "projected_change_pct_90d": 0.082,
+      "cross_prob_90d": 0.745,
+      "eta_days": 41,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.11,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 5.94,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 40
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9070xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9060 XT",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.05,
+      "trigger_usd": 313.95,
+      "current_median_usd": 669.5,
+      "current_premium_pct": 1.2391,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.5311,
+      "projected_median_usd_90d": 734.63,
+      "projected_change_pct_90d": 0.0973,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 7.46,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9060xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9060 XT",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.15,
+      "trigger_usd": 343.85,
+      "current_median_usd": 669.5,
+      "current_premium_pct": 1.2391,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.4864,
+      "projected_median_usd_90d": 734.63,
+      "projected_change_pct_90d": 0.0973,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 7.46,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9060xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9060 XT",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.3,
+      "trigger_usd": 388.7,
+      "current_median_usd": 669.5,
+      "current_premium_pct": 1.2391,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.4194,
+      "projected_median_usd_90d": 734.63,
+      "projected_change_pct_90d": 0.0973,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 7.46,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9060xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    },
+    {
+      "sku_model": "RX 9060 XT",
+      "msrp_usd": 299.0,
+      "trigger_level": 1.5,
+      "trigger_usd": 448.5,
+      "current_median_usd": 669.5,
+      "current_premium_pct": 1.2391,
+      "already_above": true,
+      "gap_to_trigger_pct": -0.3301,
+      "projected_median_usd_90d": 734.63,
+      "projected_change_pct_90d": 0.0973,
+      "cross_prob_90d": 1.0,
+      "eta_days": 1,
+      "drivers": {
+        "memory_cost_delta_pct_of_msrp": 4.12,
+        "memory_share_of_msrp": 0.333,
+        "memory_share_measured": true,
+        "scarcity_uplift_pct": 7.46,
+        "pass_through_assumed": 0.55,
+        "projected_change_capped": false,
+        "n_merchants_priced": 3,
+        "price_basis": "in_stock_and_fresh",
+        "basis_age_days": 0
+      },
+      "sources": [
+        "https://www.nowinstock.net/computers/videocards/amd/rx9060xt/",
+        "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+      ],
+      "model_version": "cgw-0v1"
+    }
+  ],
+  "validation": {
+    "checks": {
+      "generation_vs_risk_spearman": 0.653,
+      "risk_increases_with_generation_age": true,
+      "skus_with_zero_stock": [
+        "RTX 4060",
+        "RTX 4060 Ti",
+        "RTX 4070",
+        "RTX 4070 Ti",
+        "RTX 4080",
+        "RTX 4090",
+        "RTX 5090",
+        "RX 7900 XT"
+      ],
+      "n_skus_scored": 18
+    },
+    "caveat": "Priors are hand-set for v0; these checks only confirm the model orders SKUs in the direction domain knowledge expects. No outcome-fitted calibration exists yet - see docs/model.md for the roadmap."
+  }
+}
